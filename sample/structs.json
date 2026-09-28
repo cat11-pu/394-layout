@@ -1,0 +1,18 @@
+{
+  "budget": 3,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_width_code": "E_BAD_WIDTH",
+  "dup_code": "E_DUP_NAME",
+  "no_field_code": "E_NO_FIELD",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "fields": [], "dropped": [], "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "add", "name": "k1", "width": 1 },
+    { "id": 2, "kind": "add", "name": "k2", "width": 4 },
+    { "id": 3, "kind": "add", "name": "k3", "width": 2 },
+    { "id": 4, "kind": "ask", "name": "k2" },
+    { "id": 5, "kind": "add", "name": "k4", "width": 8 },
+    { "id": 6, "kind": "ask", "name": "k4" },
+    { "id": 7, "kind": "drop", "name": "k3" }
+  ]
+}
